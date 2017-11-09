@@ -21,10 +21,6 @@ or
 ```
 ##### run command "composer update" in your project root 
 
-##### go to app/config/app.php and add to  Providers array this line
-
-	'Ahmedsaoud31\Arabic\ArabicServiceProvider',
-
 #Use
 ###Ex1:
 		use Arabic\Arabic;
