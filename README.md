@@ -29,17 +29,17 @@ or
 		$len = 40;
 		echo Arabic::cut($arabicText, $len);
 
-###outbuts
+###outputs
 
   إضافة اللغة العربية...
 
 ### Ex2:
-##### first argument format and scound argument the time in timesstamps or strtotime php functions input format
-##### if scound argument not set, now server time will be use 
+##### first argument format and second argument the time in timesstamps or strtotime php functions input format
+##### if second argument not set, now server time will be used 
 	
 	echo Arabic::adate('w j من F Y g:i A');
 	
-### outbuts
+### outputs
 
   ٠ ١ من فبراير ٢٠١٥ ١:٠١ مساءاً
 
@@ -47,15 +47,15 @@ or
 
          echo Arabic::num('12.09');
 
-### outbuts
+### outputs
 
   ١٢٫٠٩
 
 ### Ex4:
-##### time format in timesstamps or strtotime php functions input format
+##### time format in timestamps or strtotime php functions input format
 	echo 'منذ '.Arabic::since('1-1-2015');
 	
-### outbuts
+### outputs
 
   منذ ثوان
   
