@@ -1,5 +1,5 @@
 # arabic-laravel
-Arabic package for laravel, arabic date, cut arabic string, arabic numer and since arabic format
+Arabic package for laravel, Arabic date, build substring from pre-configured arabic string, Arabic number, and sentence includs "since YY MM DD HH:MM:SS" in Arabic format.
 
 
 ## Installation
@@ -34,8 +34,8 @@ or
   إضافة اللغة العربية...
 
 ### Ex2:
-##### first argument format and second argument the time in timesstamps or strtotime php functions input format
-##### if second argument not set, now server time will be used 
+##### first argument format and second argument are the time in timestamps or strtotime php functions input format
+##### if second argument not set, the server time will be used instead. 
 	
 	echo Arabic::adate('w j من F Y g:i A');
 	
